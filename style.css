@@ -1,0 +1,63 @@
+.p{
+    background-color: rgb(113, 47, 174);
+    color: rgb(255, 255, 255);
+    font-family: verdana;
+    font-size: 300%;
+    border: 10px solid rgb(191, 255, 0);
+    padding: 50px;
+    
+}
+
+    #abcd:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #abcd:visited {
+    color: rgb(110, 12, 28);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #abcd:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  #abcd:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }  
+  table{
+    border-spacing: 40px;
+  }
+  table, th,td{
+    border: 2px solid black;
+    /* border-collapse:collapse ; */
+    border-radius: 10px;
+  }
+  th, td{
+    background-color: rgba(224, 241, 71,.4);
+    /* border-style: dashed; */
+    /* border-color: brown; */
+    /* border-radius: 20%; */
+    padding:5px;
+  }
+  tr:nth-child(even)
+  {
+    background-color:rgb(0, 255, 255) ;
+  }
+
+.finaltables{
+    border: 2px solid black;
+    border-radius: 30px;
+    border-color: black;
+    border-spacing:10px ;
+    /* border-radius: 5px; */
+}
+.finalthtd{
+    background-color:#1ddb1a;
+    
+    border-color: blue;
+    
+}
