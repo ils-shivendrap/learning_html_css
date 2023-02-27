@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Working With FORMS</h1>
+    <hr>
+    <h3>Input Form:</h3>
+    <form action="https://www.w3schools.com/action_page.php">
+       
+        <label for="fname">First Name:</label>
+        <br>
+        <input type="text" id="fname" name="fname" value="sadasdsadasdasd">
+        <br>
+        <label for="lname">Last Name</label>
+        <br>
+        <input type="text" id="lname" name="lname" value="asdasdasdasdas">
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        <!-- <button type="button" style="color: blue; border-color: black;font-size: 20px;"> Submit </button> -->
+    </form>
+
+    <hr>
+    <br>
+    <h3>Radio Form</h3>
+    <!-- ------------------------------RADIO BUTTON form -------------------------------- -->
+    <form action="https://www.w3schools.com/action_page.php">
+        <input type="radio" id="html" name="fav_langauge" value="HTML">
+        <label for="html">HTML</label>
+        <br>
+        <input type="radio" id="CSS"  name="fav_langauge" value="CSS">
+        <label for="CSS">CSS</label>
+        <br>
+        <input type="radio" id="Javascript" name="fav_langauge" value="Javascript">
+        <label for="Javascript">Javascript</label> 
+        <br>
+        <br>    
+        <button type="button" style="color: rgb(255, 0, 0); border-color: black;font-size: 20px;"> Submit </button>
+
+<hr>
+    <!-- ------------------------------Checkbox form -------------------------------- -->
+
+        <h3>Checkbox</h3>
+
+        <form action="">
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="dasd">
+            <label for="vehicle1"> Bike</label>
+            <br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="CAr">
+            <label for="vehicle2">CAR</label>
+            <br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="BUS">
+            <label for="vehicle3">BUS</label>
+
+            <br><br>
+            <button type="button" style="color: rgb(3, 92, 9); border-color: black;font-size: 20px;"> Submit </button>
+        </form>
+
+            <!-- ------------------------------form -------------------------------- -->
+
+            <hr>
+
+            <h3>Input form 2
+
+            </h3>
+            <form action="https://www.w3schools.com/action_page.php" target="_blank" autocomplete="on" name="myForm">
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname" value="Shivendra">
+                <br>
+                <br>
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname" value="Patel"><br><br>
+                <label for="caste">CASTE:    </label>
+                <select name="caste" id="caste" multiple>
+                    <option value="OBC">OBC</option>
+                    <option value="SC">SC</option>
+                    <option value="ST">ST</option>
+                    <option value="GEN">GEN</option>
+                </select><br><br>
+                <label for="summary">Summary:</label><br>
+                <textarea name="summary" id="summary" cols="30" rows="10"></textarea>
+                    <br><br>
+                <input type="submit"  value="submit" >
+            </form>
+            <hr>
+
+            <h3> New Form:</h3>
+            <form action="https://www.w3schools.com/action_page.php" target="_blank" autocapitalize="on">
+                <fieldset>
+                    <legend>Enquiry Form</legend>    
+                        <label for="fname">First Name:</label>
+                        <input type="text" name="fname" id="fname" value="Shivendra">
+                        <br>
+                        <br>
+                        <label for="lname">Last Name:</label>
+                        <input type="text" name="lname" id="lname" value="Patel"><br><br>
+
+                </fieldset>
+
+
+            </form>
+
+
+
+
+
+    </form>
+
+</body>
+</html>
