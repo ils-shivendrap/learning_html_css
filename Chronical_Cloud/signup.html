@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+</head>
+<body>
+    <div class="main-content">
+        <div class="logo-div">
+            <img class="logo-img" src="assets/Logo.png">
+        </div>
+        <div class="form-main-div">
+            <form action="" class="form-div">
+                <div class="step1">
+                    <div class="heading-div-1">
+                        REGISTRATION
+                    </div>
+                    <div class="step-div">
+                        <span class="step-01">STEP 01</span>
+                        <span class="step-02">STEP 02</span>
+                        <div class="underline-div">
+                            <span> <hr class="underline-tag1"> </span>
+                            <span> <hr class="underline-tag2"> </span>
+                        </div>
+                    </div>
+                    <div class="name-div">
+                            <input id="fname" class="fname-input" type="text" name="fname" id="fname" placeholder="First Name">
+                            <!-- <label for="fname">First Name</label> -->
+                            <input class="lname-input" type="text" name="lname" id="lname" placeholder="Last Name">
+                    </div>
+                    <div class="email-div">
+                        <input class="email-input" type="email" placeholder="Email ID">
+                    </div>
+                    <div class="mobile-div">
+                        <input class="mobile-input" id="phone" type="tel" pattern="[0-9] {10}" name="phone" placeholder="Mobile Number">
+                    </div>
+                    <div class="heading-div-2">
+                        Create Password
+                    </div>
+                    <div class="pass-content">
+                    Password must contain one special character, one capital letter and be at least 6 characters long.
+                    </div>
+                    <div class="password-div">
+                        <input class="password" type="password" placeholder="Enter Password">
+                    </div>
+                    <div class="password-div">
+                        <input class="password" type="password" placeholder="Confirm Password">
+                    </div>
+                    <div class="button-div">
+                        <button class="button-div-1" type="submit"> Next Step &#8594; </button>
+                    </div>
+                    <div class="content-div">
+                        <div class="content-div-2">
+                        Do have an account?
+                        </div>
+                        <div class="">
+                            <button  onclick="location.href = 'login.html';" type="button"  class="button-div-2">LOGIN</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="bottom-text">
+                © 2022 All rights reserved | Built for Chronicle Cloud.<br> <strong>Powered with Synapse Xtreme Engine (SXE).</strong>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+<script src="signup.js"></script>
+</html>

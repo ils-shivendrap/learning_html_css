@@ -61,3 +61,13 @@
     border-color: blue;
     
 }
+
+.tabless{
+  border-collapse:collapse ;
+  width: 100%;
+}
+
+.tableheader{
+  padding: 10px;
+  
+}
